@@ -21,8 +21,6 @@ import ImageCode from 'taro-canvas-code';
           onClose={this.onClose}
           onMath={this.onMath}
           top={'30%'}
-          x={x}
-          errNumber={5}
         />
 ```
 
@@ -31,9 +29,9 @@ import ImageCode from 'taro-canvas-code';
 ## 属性列表
 
 | 属性               | 类型         | 默认值     | 必填 | 说明   |
-| ----------------- | ------------ | ---------- | ---- | --------- |
-| imageUrl          | string       |             |  是  | 背景图片的路径宽325px,高217px |
-| top               | string       |  background |  否  | 组件距离顶部高度              |
+| ----------------- | ------------ | ----------  | -----| --------- |
+| imageUrl          | string       |             |  是  | 背景图片的路径,要求宽325px,高217px |
+| top               | string       |      0      |  否  | 组件距离顶部高度              |
 | onReload          | function     |             |  否  | 重新渲染时触发的函数           |
 | onMath            | function     |             |  否  | 验证成功后触发的函数           |
 | onClose           | function     |             |  否  | 点击右上角关闭按钮触发的函数     |
