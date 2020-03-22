@@ -33,5 +33,5 @@ import ImageCode from 'taro-canvas-code';
 | imageUrl          | string       |             |  是  | 背景图片的路径,要求宽325px,高217px |
 | top               | string       |      0      |  否  | 组件距离顶部高度              |
 | onReload          | function     |             |  否  | 重新渲染时触发的函数           |
-| onMath            | function     |             |  否  | 验证成功后触发的函数           |
+| onMath            | function     |             |  否  | 滑动结束后进行验证的函数,接收两个参数，第一个是滑动结束的x坐标，第二个是验证失败执行的回调函数           |
 | onClose           | function     |             |  否  | 点击右上角关闭按钮触发的函数     |
