@@ -1,0 +1,11 @@
+.canvas_box{
+  text-align: center;
+}
+.canvas{
+  width:600px;
+  height:600px;
+}
+.color{
+  width:300px;
+  height:100px;
+}

@@ -29,5 +29,43 @@
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"libVersion": "2.3.1",
-	"condition": {}
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "获取图片主色",
+					"pathName": "pages/getRgba/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "表情",
+					"pathName": "pages/emoji/index",
+					"scene": null
+				}
+			]
+		}
+	}
 }

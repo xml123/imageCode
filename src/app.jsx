@@ -21,7 +21,9 @@ class App extends Component {
 
   config = {
     pages: [
-      'pages/index/index'
+      'pages/index/index',
+      'pages/getRgba/index',
+      'pages/emoji/index'
     ],
     window: {
       backgroundTextStyle: 'light',

@@ -43,6 +43,9 @@
     "@tarojs/taro-weapp": "2.0.1",
     "nerv-devtools": "^1.5.5",
     "nervjs": "^1.5.5",
+    "node-emoji": "^1.10.0",
+    "quantize": "^1.0.2",
+    "rgbaster": "^2.1.1",
     "taro-ui": "^2.3.1"
   },
   "devDependencies": {
