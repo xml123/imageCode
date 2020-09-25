@@ -1,0 +1,30 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <view class="image_code">
+            <view class="image_code_box" style="{{'margin-top:' + top}}">
+                <view class="title">
+                    <view class="title_text">图形验证码</view>
+                    <view class="close_btn" bindtap="funPrivatebzzzz">
+                        <image class="close_image" src="{{close_image}}"></image>
+                    </view>
+                </view>
+                <view class="imageCode" style="{{anonymousState__temp}}">
+                    <view class="imageContainer" style="{{'height:' + imageHeight + 'px;' + 'background-image:' + 'url(' + imageUrl + ')'}}">
+                        <canvas canvas-id="shadowCanvas" class="canvas" type="2d" style="{{'left:' + offsetX + 'px;' + 'top:' + offsetY + 'px;' + 'width:' + fragmentSize + 'px;' + 'height:' + fragmentSize + 'px;' + 'position:absolute'}}"></canvas>
+                        <canvas canvas-id="fragmentCanvas" class="canvas" type="2d" width="{{fragmentSize}}" height="{{fragmentSize}}" style="{{'top:' + offsetY + 'px;' + 'left:' + currX + 'px;' + 'width:' + fragmentSize + 'px;' + 'height:' + fragmentSize + 'px;' + 'position:absolute'}}"></canvas>
+                    </view>
+                    <view class="reloadContainer">
+                        <view class="reloadWrapper" bindtap="onReload">
+                            <image class="reload_image" src="{{reload_image}}"></image>
+                            <view class="reloadTips">刷新验证</view>
+                        </view>
+                    </view>
+                    <view class="sliderWrpper" bindtouchmove="onMoving">
+                        <view class="sliderBar">按住滑块，拖动完成拼图</view>
+                        <view class="sliderButton" bindtouchstart="onMoveStart" bindtouchend="onMoveEnd" style="{{anonymousState__temp2}}"></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

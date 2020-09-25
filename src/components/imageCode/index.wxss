@@ -1,0 +1,128 @@
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.imageContainer {
+  position: relative;
+  background-color: #ddd;
+}
+.reloadContainer {
+  margin: 20rpx 0;
+  text-align: left;
+}
+.reloadWrapper {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+.reloadTips {
+  font-size: 24rpx;
+  color: #666;
+  margin-left:10rpx;
+}
+.sliderWrpper {
+  position: relative;
+  margin: 30rpx 0;
+}
+.sliderBar {
+  padding: 16rpx;
+  font-size: 24rpx;
+  text-align: center;
+  color: #999;
+  background-color: #ddd;
+}
+.sliderButton {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  background: #fff center/80% 80% no-repeat;
+  box-shadow: 0 2rpx 10rpx 0 #333;
+}
+/* 提示信息 */
+.tipsContainer,
+.tipsContainerActive {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  padding: 10rpx;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: all 0.25s;
+  background: #fff;
+  border-radius: 5rpx;
+  visibility: hidden;
+  opacity: 0;
+}
+.tipsContainerActive {
+  visibility: visible;
+  opacity: 1;
+}
+.tipsIco {
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 10rpx;
+  background: center/cover no-repeat;
+}
+.tipsText {
+  color: #666;
+}
+.imageCode{
+  padding:20rpx;
+  margin:0 auto;
+}
+.image_code_box{
+  background:#fff;
+  border-radius: 10rpx;
+  width:690rpx;
+  max-width: 750rpx;
+  margin: 0 auto;
+  border:1rpx solid #e0e0e0;
+}
+.title{
+  padding: 20rpx 24rpx;
+  color: rgba(0,0,0,.65);
+  /* background: #fff; */
+  border-bottom: 1rpx solid #e8e8e8;
+  border-radius: 10rpx 10rpx 0 0;
+  position: relative;
+}
+.title_text{
+  margin: 0;
+  color: rgba(0,0,0,.85);
+  font-size: 32rpx;
+  word-wrap: break-word;
+}
+.close_btn{
+  position: absolute;
+  vertical-align: top;
+  width:60rpx;
+  height:60rpx;
+  text-align: center;
+  right:10rpx;
+  top:14rpx;
+}
+.close_image{
+  width:30rpx;
+  height:30rpx;
+  vertical-align: top;
+  margin-top:15rpx;
+}
+.image_code{
+  width:100%;
+  position: fixed;
+  top:0;
+  left:0;
+}
+.reload_image{
+  width:30rpx;
+  height:30rpx;
+}
